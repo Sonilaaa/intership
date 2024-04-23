@@ -1,0 +1,17 @@
+
+h1{
+    background-color: rgb(255, 146, 127);
+}
+.red{
+    background-color: red;
+}
+#green{
+    background-color: aliceblue;
+}
+.clickme{
+    background-color: rgb(166, 191, 213);
+    border:none;
+    cursor:pointer;
+    color:black;
+    border-radius: 5px;
+}
