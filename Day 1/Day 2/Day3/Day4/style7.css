@@ -1,0 +1,56 @@
+.main{
+    background-color:blue;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    padding: 20px;
+     gap: 20px;
+    
+}
+.one{
+   background-color: white;
+   border-color: blue;
+   padding:40px;
+   padding-top: 50px;
+   
+ 
+
+}
+.two{
+    background-color: white;
+    border-color: blue;
+    padding: 40px;
+    padding-top: 50px;
+    
+}
+.three{
+    background-color: white;
+    border-color:blue;
+    padding: 40px;
+    padding-top: 50px;
+}
+.one h1{
+    color: white;
+    background-color: blue;
+   
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+   
+}
+.two h1{
+    color: white;
+    background-color: blue;
+   
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.three h1{
+    color: white;
+    background-color: blue;
+   
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+}

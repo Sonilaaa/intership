@@ -1,0 +1,53 @@
+.outerdiv{
+    
+    background: radial-gradient(circle, rgb(166, 189, 170) 22%, rgb(26, 95, 40) 44%, rgb(3, 10, 3) 100%);
+    
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+    padding-bottom:40px;
+}
+.outinbox{
+    background-color: rgb(233, 215, 215);
+    padding-left: 350px;
+
+    padding-right: 350px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.innerbox{
+    background-color: white;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.innerbox h1{
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top:50px;
+}
+.innerbox h2{
+    text-align: center;
+}
+.innerbox p{
+    text-align: justify;
+}
+.btn{
+    background-color: white;
+    color: black;
+    margin-left: 70px;
+ 
+  
+}
+.btn1{
+    background-color: rgb(49, 129, 195);
+    color: white;
+   margin-left: 80px;
+   padding-right: 20px;
+  
+  
+}

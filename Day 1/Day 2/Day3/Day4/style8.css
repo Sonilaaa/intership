@@ -1,0 +1,54 @@
+.topbox{
+    background-color: rgb(78, 78, 249);
+    margin-top: 10px;
+}
+.topbox h3{
+    margin-left: 10px;
+    padding-top: 20px;
+}
+.midbox{
+    background-color:rgb(237, 225, 225);
+    color:rgb(99, 99, 171);
+    display: grid;
+    grid-template-columns:0.1fr 0.1fr 0.1fr 0.1fr 0.1fr 0.1fr ;
+    padding-top: 50px;
+    padding-left: 50px;
+   text-align:justify;
+    word-spacing: 5px;
+    top: 0;
+    margin: 0;
+  position: sticky;
+ 
+}
+.midbox img{
+ border-radius: 50%;
+}
+.btn{
+    background-color:orange ;
+    color: white;
+    border-radius: 10px;
+   box-shadow: 2px;
+    font-size: 22px;
+    margin-left: 900px;
+    margin-bottom:50px;
+    margin-top: 65px;
+    margin-right: 10px;
+    position: absolute;
+}
+
+
+.bottombox{
+  background-color: rgb(87, 87, 233);  
+  color: white;
+  margin-top: 100px;
+}
+.bottombox p{
+    font-style:normal
+    font-size:large;
+    padding-left: 20px;
+    padding-right: 800px;
+    padding-top: 60px;
+}
+
+    
+

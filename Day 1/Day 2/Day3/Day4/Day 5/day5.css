@@ -1,0 +1,25 @@
+body{
+    background-color:royalblue;
+    position: relative;
+    
+}
+.arrow{
+    background-color:pink;
+width: 50px;
+position:fixed;
+bottom: 0%;
+right: 0%;
+font-size: 50px;
+margin-right: 20px;
+margin-top: 20px;
+
+
+}
+html{
+    scroll-behavior: smooth;
+}
+.fa-arrow-up{
+ 
+    font-size:100px;
+}
+
