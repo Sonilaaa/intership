@@ -355,6 +355,9 @@ margin-top: 80px;
     padding-left: 125px;
 }
 
+.animate__animated {
+    animation-duration: 2s;
+}
 
 
 
