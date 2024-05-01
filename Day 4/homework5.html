@@ -5,7 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style9.css">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+
+
 </head>
 <body>
     <div class="topbox">
@@ -24,9 +35,24 @@
             <li>Events</li>
             <li>Contacts</li>
         </ui>
-        <button class="btn"><i class="fa fa-heart"></i>Make A Donation</button>
+        <button class="btn" ><i class="fa fa-heart"></i>Make A Donation</button>
 </nav>
-<img src="https://onetryindiatrst.weebly.com/uploads/5/9/2/7/59279811/8503864_orig.jpg"alt="kids"height="500px"width="1200px">
+
+<div class="swiper">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="https://onetryindiatrst.weebly.com/uploads/5/9/2/7/59279811/8503864_orig.jpg"alt="childern"height="500px"width="1200px">
+        <div class="text">
+
+            <h2 class="animate__animated animate__flip"> CHITWAN MANAV SEWA</h2>
+        </div>
+    </div>
+
+    <div class="swiper-slide"><img src="https://pbs.twimg.com/media/FA67s5-VcAAc7LR.jpg"alt=""height="500px"width="1200px">
+            <div class="text">
+                <h2 class="animate__animated animate__rollIn">GROUP PHOTO BY CMSA</h2>
+            </div>
+</div>
+    </div>
 
 <div class="whole">
 <img src="https://www.cmsa.org.np/images/oldhand.jpg"alt="oldage"height="300px"width="300px">
@@ -35,17 +61,68 @@
 <p>Chitwan Manav Sewa Ashram was established in 2072 B.S. (2015 A.D.) with a slogan "Human service is the best way of life". We are located at Bharatpur Chitwan. Chitwan Manav Sewa Ashram is taking care of oldage and differently-abled people. Every person is equal and have equal right. So, we started this organisation for taking care of needy ones.</p><br>
         <button class="btn1">View More</button><br>
     </div>
+    </div>
+<div class="gallery">
     
+    <h1>Gallery</h1>
+    <p>View our gallery photos at a glance.</p>
+    <br><br>
+    <div>
+    <footer class="footer2">
+        <div class="foot4">
+            <img src="https://www.cmsa.org.np/images/gallery/IMG_7168_1669901363.JPG"alt=""width="300px"height="400px">
+            
+        </div>
+        <div class="foot5">
+            <img src="https://www.cmsa.org.np/images/gallery/IMG_7193_1669901272.JPG"alt=""width="300px"height="400px">
+        </div>
+        <div class="foot6">
+            <img src="https://www.cmsa.org.np/images/gallery/IMG_7166_1669901220.JPG"alt=""width="300px"height="400px">
+        </div>
 
+            </footer>
+            <button class="view btn">View All</button>
+
+
+
+</div>
+</div>
     <div class="part">
         <img src="https://www.cmsa.org.np/images/6.jpeg"alt="oldage"height="400px"width="400px">
         <h3>Helping Today</h3>
         <h2><b>What we are doing</b></h2>
         <p>We provide fooding, housing and medical care for our loved ones.We'll continue our service and give importance to the needy ones. This gives us a true happiness.</p>
-    
+    <button class="joinbtn">Join Today</button>
+    </div>
+</div>
+<br>
+<br><br><br><br><br><br>
+
+<h1 class="h1">Helping Today</h1><br>
+<p class="p"><u>What We Are Doing</u></p>
+</div>
+
+<footer class="provide">
+    <div class="food">
+        <i class="fa-solid fa-lemon"></i>
+        <h2>Healthy Food&Water</h2><br>
+        <p>Chitwan Manavsewa Asharam takes care of hygine, cleanliness and purity of everything. We provide fresh and healty foods and water in our organisation.</p>
     </div>
 
-   
+    <div class="health">
+        <i class="fa-solid fa-suitcase-medical"></i>
+        <h2>Health & Medicine</h2><br>
+        <p>We take care of your health. We regulary check up the health from expert doctors and provide medicine if needed and recommended by the doctors.</p>
+    
+    </div>
+    <div class="home">
+        <i class="fa-solid fa-house"></i>
+        <h2>Home</h2><br>
+        <p>We love to provide home for needy ones. Providing home will make us feel our organisation as our own home. We put our all effort to make you feel the Ashram as your own home.</p>
+    </div>
+</div>
+</footer>
+
     <footer class="footer">
         <div class="foot">
             <img src="https://www.cmsa.org.np/images/logo.png"alt="hands"height="100px"width="100px">
@@ -78,7 +155,41 @@
         </div>
     </footer>
 
-       
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+    <!-- If we need scrollbar
+    <div class="swiper-scrollbar"></div>
+ </div> -->
+ <script>
+    const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
+
+  // If we need pagination
+//   pagination: {
+//     el: '.swiper-pagination',
+//   },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  autoplay:{
+    delay:2500,
+    disableOnInteraction:false},
+  
+
+  // And if we need scrollbar
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
+});
+</script>
+
+
 
     
 </body>

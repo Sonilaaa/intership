@@ -123,8 +123,8 @@ gap:620px;
 .text{
     margin-top: 30px;
     position: absolute;
-    z-index: 50px;
-    color: black;
+    z-index: 100px;
+    color:white;
     top: 80px;
     left: 80px;
 }
@@ -182,13 +182,7 @@ gap:620px;
     z-index: 1000;
     gap: 20px;
     position: absolute;
-   
-    
-  
-bottom:10%;
-    z-index: 1000;
-    /* bottom: 10px; */
-    
+    top: 900px;
     
 }
 
@@ -206,14 +200,27 @@ bottom:10%;
 .doctors{
     background-color: #1c90fc;
     padding: 30px;
+   
     border-radius: 4px;
     color: whitesmoke;
 }
 .hours{
     background-color: #1c90fc;
     padding: 30px;
+  
     border-radius: 4px;
     color: whitesmoke;
 
 }
+
+.middlebox{
+    margin-top: 200px;
+    text-align: center;
+}
+
+.middlebox p{
+   text-align: center; 
+    color: rgb(185, 174, 174);
+}
+
 
