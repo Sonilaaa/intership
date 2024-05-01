@@ -1,0 +1,219 @@
+body{
+    position: relative;
+}
+
+.topbar{
+display: flex;
+gap:620px;
+}
+.topbar ul{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    margin-left: 30px;
+}
+.topbar li{
+    cursor: pointer;
+    
+    padding: 10px 16px;
+}
+.fa{
+    float:right;
+   
+}
+.topbar li:hover{
+    color: #1c90fc;
+}
+
+#navbar{
+    position:sticky;
+    top: 0%;
+    z-index: 1000px;
+}
+
+#navbar ul{
+    display: flex;
+    list-style-type: none;
+    /* gap: 35px; */
+    margin-left: 30px;
+    text-align: center;
+   
+}
+#navbar img{
+    margin-right: 60px;
+    padding-right: 2px;
+    padding-left: 2px;
+}
+#navbar li{
+    padding-left: 35px;
+    padding-right: 30px;
+    margin-right: 20px;
+    padding: 8px 12px;
+    text-align: center;
+    align-content: center;
+    cursor: pointer;
+}
+
+.bookbtn{
+    margin-left: 36px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 18px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background-color: #1c90fc ;
+    color: whitesmoke;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.bookbtn:hover{
+    background-color: rgb(12, 4, 15);
+}
+
+ /* This only changes this particular animation duration */
+.animate__animated.animate__flip {
+    --animate-duration: 2s;
+  }
+  
+  /* This changes all the animations globally */
+  :root {
+    --animate-duration: 800ms;
+    --animate-delay: 0.9s;
+  }   
+
+.animate__animated.animate__backInDown{
+    --animate-duration: 2s;
+}
+
+/* This changes all the animations globally */
+:root {
+  --animate-duration: 800ms;
+  --animate-delay: 0.9s;
+}   
+  
+ 
+    
+
+
+.swiper {
+    height: 900px;
+    width: 1340px;
+   
+}
+.swiper img{
+    width: 1340px;
+   
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    background-color:  #1c90fc ;
+    right:10px;
+    padding: 5px;
+    border-radius: 30px;
+    color: rgb(230, 228, 228) !important;
+
+    /* fill: black !important;
+    stroke: black !important; */
+}
+
+.text{
+    margin-top: 30px;
+    position: absolute;
+    z-index: 50px;
+    color: black;
+    top: 80px;
+    left: 80px;
+}
+
+.blue{
+    color:  #1c90fc ;
+}
+ 
+.appointment{
+    margin-left: 36px;
+    padding-left: 20px;
+    margin-top: 30px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 3px;
+    background-color: #1c90fc ;
+    color: whitesmoke;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+.appointment:hover{
+    background-color: rgb(12, 4, 15);
+}
+.learn{
+    margin-left: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 3px;
+    background-color: rgb(12, 4, 15);
+    color: whitesmoke;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+.learn:hover{
+    background-color: #1c90fc;
+}
+.swiper-wrapper{
+    position: relative;
+   
+
+
+}
+
+.mergethree{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 8%;
+    margin-right: 8%;
+    z-index: 1000;
+    gap: 20px;
+    position: absolute;
+   
+    
+  
+bottom:10%;
+    z-index: 1000;
+    /* bottom: 10px; */
+    
+    
+}
+
+.cases{
+   background-color: #1c90fc;
+   padding: 30px;
+   border-radius: 4px;
+   color: whitesmoke ;
+
+   /* top: 0%;
+   z-index: 1000px; */
+}
+
+
+.doctors{
+    background-color: #1c90fc;
+    padding: 30px;
+    border-radius: 4px;
+    color: whitesmoke;
+}
+.hours{
+    background-color: #1c90fc;
+    padding: 30px;
+    border-radius: 4px;
+    color: whitesmoke;
+
+}
+

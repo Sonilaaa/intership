@@ -69,3 +69,28 @@
     padding-top: 10px;
     padding-bottom: 10px;
 }
+.swiper{
+   margin-top: 0%;
+   margin: 0%;
+}
+.swiper img{
+    position: relative;
+}
+.text{
+    position: absolute;
+    z-index: 30px;
+    top: 500px;
+    left: 50px;
+    color: blue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+text label{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+}
+.b1{
+    background-color: blue;
+    color: white;
+    border-radius: 8px;
+    
+}

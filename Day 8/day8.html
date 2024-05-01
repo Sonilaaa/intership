@@ -6,7 +6,9 @@
     <title>Document</title>
     <link rel="stylesheet" href="day8.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    
+  </head>
 <body>
     <nav class="nav">
         <ui>
@@ -20,6 +22,7 @@
  </ui>
   </nav>
   <hr>
+  <div>
   <nav class="nav1">
     <ui>
        <img src="https://www.free-css.com/assets/files/free-css-templates/preview/page296/mediplus-lite/assets/img/logo.png"alt="logo"width="200px"length="200px"></img>
@@ -28,13 +31,75 @@
         <li>Service</li>
         <li>Pages</li>
         <li>Blogs</li>
+        <li>Contact Us</li>
         <button class="btn">Book Appointment</button>
 
     </ui>
   </nav>
+</div>
 
 
+  <div class="swiper-main">
+<div class="swiper">
 
+<div class="swiper-wrapper">
+  <div class="swiper-slide"><img src="https://mostaql.hsoubcdn.com/uploads/thumbnails/1221801/6540d4e2c2dfe/Design-sans-titre-2.jpg"alt=""width="100%">
+    <div class="text">
+      <label for="">We provide medical service<br>That you can trust</label>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum saepe voluptatem nisi ipsam debitis impedit amet sit quibusdam in earum. In et, vero consequatur quo harum temporibus nostrum deleniti beatae.</p>
+      <button class="b1">Get Appoinment</button>
+      <button class="b2">Learn More</button>
+    </div>
+</div>
+<div class="swiper-slide"><img src="https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjg2OC1zYXNpLTA2LmpwZw.jpg"alt=""width="100%">
+  <div class="text">
+    <label for="">We Provide Medical Services<br>That you can trust</label>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate quidem eos sequi deserunt expedita, aliquid debitis distinctio? Tempore, architecto, neque, culpa ipsum delectus consequuntur repellendus ipsa eaque voluptatibus repudiandae voluptas!</p><br>
+  <button class="b1">Get Appointment</button>
+  <button class="b2">Learn More</button>
+  </div>
+  <div class="swiper-slide"><img src="https://mediaproxy.salon.com/width/1200/https://media2.salon.com/2022/06/doctor-writing-notes-clipboard-0624221.jpg"alt=""width="100%">
+    <div class="text">
+      <label for="">We Provide Medical Services<br>That you can trust</label>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate quidem eos sequi deserunt expedita, aliquid debitis distinctio? Tempore, architecto, neque, culpa ipsum delectus consequuntur repellendus ipsa eaque voluptatibus repudiandae voluptas!</p><br>
+    <button class="b1">Get Appointment</button>
+    <button class="b2">Learn More</button>
+</div>
+  </div>
+</div>
+<div class="swiper-pagination">
+</div>
+<div class="swiper-button-prev"></div>
+<div class="swiper-button-next"></div>
+
+<div class="swiper-scrollbar"></div>
+
+  </div>
+<script>
+  const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  direction: 'vertical',
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  // And if we need scrollbar
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
+});
+</script>
+</div>
+</div>
 
 
 </body>
