@@ -1,0 +1,5 @@
+@media screen and (max-width:7680px) {
+    .topbar{
+        grid-template-columns: 1fr 1fr;
+    }
+}

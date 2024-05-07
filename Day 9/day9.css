@@ -1,5 +1,6 @@
 body{
     position: relative;
+    /* font-family: sans-serif; */
 }
 
 .topbar{
@@ -19,6 +20,8 @@ gap:620px;
 }
 .fa{
     float:right;
+    color: skyblue;
+    font-size: small;
    
 }
 .topbar li:hover{
@@ -223,4 +226,641 @@ gap:620px;
     color: rgb(185, 174, 174);
 }
 
+.icons{
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 60px;
+    padding: 12px 16px; 
+    gap: 20px;
+    padding-left: 60px;
+    padding-right: 30px;
+}
 
+.icons i {
+    font-size: 40px;
+    background-color:whitesmoke;
+    padding: 40px;
+    border-radius: 50%;
+}
+.icons i:hover{
+    background-color: rgb(61, 123, 173);
+}
+.icons p{
+    
+    color:rgb(186, 179, 179);
+    font-size: small;
+}
+.live{
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left: 30px;
+    padding: 12px 16px; 
+    gap: 20px;
+    padding-top:80px;
+    padding-bottom: 50px;
+    
+    background-image: url("https://media.istockphoto.com/id/1182836538/photo/cropped-view-of-nurse-sitting-at-table-and-using-laptop-during-night-shift.jpg?s=1024x1024&w=is&k=20&c=O49XP5YO_PwGGTB46l1ULJW6TohS5GE1nk6NzqK3tbU=");
+    
+}
+.live i {
+    font-size: 20px;
+    background-color: rgb(73, 121, 141);
+    padding: 20px;
+    border-radius: 90%;
+    box-shadow:rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    
+   
+}
+.live i:hover{
+    background-color: rgb(243, 243, 243);
+}
+.live h3{
+    font-size:large;
+    color: white;
+}  
+.live span{
+    color: white;
+    font-size: x-large;
+}
+.service{
+    text-align: center;
+    padding-top: 50px;
+}
+.service p{
+    color:rgb(187, 178, 178);
+}
+.who{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 25px;
+  font-size: larger;
+    height: 500px;
+}
+
+
+
+ .we{
+   
+    height: 500px;
+    width: 500px;
+    margin-left: 30px;
+ }
+
+ .we i{
+    font-size: small;
+    padding: 2px;
+    border-radius: 80%;
+    background-color: #1c90fc;
+    color: white;
+ }
+ .we p{
+    text-align: justify;
+    font-size: medium;
+    color:rgb(167, 160, 160) ;
+    word-spacing: 1px;
+    /* font-family: sans-serif; */
+ }
+
+ .video{
+    position: relative;
+    height: 300px;
+    width: 500px;
+    margin-right: 100px;
+    margin-top: 50px;
+ }
+ 
+    
+ 
+  .video i{
+    
+    z-index: 1000;
+    position: absolute;
+  top: 40%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+  color: #1c90fc;
+  padding: 20px;
+  background-color: aliceblue;
+  border-radius: 50%;
+ 
+    
+ }
+
+  .care{
+    background-image: url(https://c8.alamy.com/comp/EW5ND0/doctor-taking-care-of-patient-EW5ND0.jpg);
+    padding-top: 90px;
+    padding-bottom: 90px;
+    color: black;
+    text-align: center;
+
+  }
+  .care h2{
+    font-size: xx-large;
+  }
+  .now{
+    padding: 12px;
+    background-color: white;
+    color: #2165a5;
+    border-radius: 5px;
+  }
+
+  .more{
+    padding: 12px;
+    background-color: white;
+    color: #2165a5;
+    border-radius: 5px;
+  }
+  .now:hover{
+    background-color: #1c90fc;
+    color: white;
+  }
+  .more:hover{
+    background-color: #1c90fc;
+    color: white;
+    
+  }
+  .hospital{
+    margin-top: 150px;
+    text-align: center;
+}
+
+.hospital p{
+   text-align: center; 
+    color: rgb(185, 174, 174);
+}
+.photos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 8px;
+}
+
+.treatments{
+    margin-top: 150px;
+    text-align: center;
+}
+
+.treatments p{
+   text-align: center; 
+    color: rgb(185, 174, 174);
+}
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+   height: auto;
+   width:50%;
+   align-items: center;
+ }
+ .items {
+    background-color: rgba(255, 255, 255, 0.8);
+    /* border: 1px solid rgba(0, 0, 0, 0.8); */
+    padding: 20px;
+   
+    padding-left: 100px;
+    /* margin-right: 50px; */
+    
+    height: auto;
+    width: 250px;
+}
+
+.items p{
+    color: rgb(167, 160, 160); 
+    margin-left: 48px;
+    /* padding-right: 20px; */
+    text-align: justify;
+}
+.items i{
+    color: #1363ad;
+    font-size: 50px;
+    padding-right: 15px;
+}
+.prices{
+    margin-top: 150px;
+    text-align: center;
+}
+
+.prices p{
+   text-align: center; 
+    color: rgb(185, 174, 174);
+}
+.dollar{
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 40px;
+    padding: 12px 16px; 
+    gap: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+/*mobile view*/
+@media screen and(max-width:100px) {
+    
+    }
+    
+
+
+
+
+.surgery{
+    background-color:whitesmoke;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+.teeth{
+    background-color:whitesmoke;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ 
+}
+.heart{
+    background-color:whitesmoke;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.part1 i{
+    color: #1363ad;
+    font-size:70px;
+    padding-left: 15px;
+    padding-top: 5px;
+}
+.part2 i{
+    color: #1363ad;
+    font-size:70px;
+    padding-left: 15px;
+    padding-top: 5px;
+}  
+.part3 i{
+    color: #1363ad;
+    font-size:70px;
+    padding-left: 15px;
+    padding-top: 5px;
+}  
+.amount{
+    color: #1c90fc;
+}
+.amount span{
+    font-size: smaller;
+}
+.book{
+   margin-left: 30px;
+    color: white;
+    background-color: #1161ab;
+    font-size: large;
+    margin-bottom: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+   
+}
+.dollar p{
+    padding-left: 30px;
+    font-size: smaller;
+    color: rgb(135, 122, 122);
+}
+.ticks i{
+   
+    background-color: #1363ad;
+    padding: 4px;
+    border-radius: 50%;
+    color: white;
+   float: right;
+  margin-right: 20px;
+}
+.ticks2 i{
+   
+    background-color: #1363ad;
+    padding: 4px;
+    border-radius: 50%;
+    color: white;
+   float: right;
+  margin-right: 20px;
+}
+.ticks3 i{
+   
+    background-color: #1363ad;
+    padding: 4px;
+    border-radius: 50%;
+    color: white;
+   float: right;
+  margin-right: 20px;
+}
+.book:hover{
+    background-color: black;
+    color: white;
+    
+}
+.news{
+    margin-top: 150px;
+    text-align: center;
+}
+
+.news p{
+   text-align: center; 
+    color: rgb(185, 174, 174);
+}
+.dates{
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 40px;
+    padding: 12px 16px; 
+    gap: 5px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.image1{
+    box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+}
+.image2{
+    box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+}
+.image3{
+    box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+}
+.dates p{
+    font-size: smaller;
+    color: rgb(149, 134, 134);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.dates h3{
+    font-size: larger;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.date{
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #1363ad;
+    color: white;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.date2{
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #1363ad;
+    color: white;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.date3{
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #1363ad;
+    color: white;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.an{
+    margin-top: 150px;
+    text-align: center;
+}
+
+.an p{
+   text-align: center; 
+    color: rgb(185, 174, 174);
+}
+.form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    margin-top: 100px;
+}
+.info{
+    margin-top: 30px;
+    margin-left:20px;
+    
+}
+.info input{
+    width: 35%;
+	height: 50px;
+	border: 1px solid #eee;
+	text-transform: capitalize;
+	padding: 0px 18px;
+	color: #2b2a2a;
+	font-size: 14px;
+	font-weight:400;
+	border-radius:0;
+	border-radius: 4px;
+    
+}
+.info textarea{
+    width: 100%;
+	height:200px;
+    padding: 18px;
+	border:1px solid #eee;
+	text-transform:capitalize;
+	resize:none;
+	border-radius: 4px;
+}
+.info p{
+    margin-top: 20px;
+    color:#868686;
+}
+.info button{
+    width:35%;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    font-size:15px;
+    background-color: #1363ad;
+    color: white;
+    font-weight: 500;
+    
+    
+}
+.contact{
+    padding-left: 80px;
+}
+.sign{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgb(215, 225, 240);
+    padding-top: 80px;
+    padding-bottom: 80px;
+  
+    
+}
+.newsletter h2{
+   text-align: left;
+   padding-left: 40px;
+
+}
+.newsletter p{
+    text-align: left;
+    padding-left: 40px;
+    color: #2b2a2a;
+}
+.newsletter2{
+    text-align: right;
+    padding-right: 70px;
+    padding-top: 40px;
+}
+.newsletter2 input{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 50px;
+}
+.newsletter2 button{
+    margin-left: 30px;
+    color: white;
+    background-color: #4b96dd;
+    font-size: large;
+    margin-bottom: 10px;
+    font-size: medium;
+   padding-top: 15px;
+   padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 10px;
+    box-shadow: #eee;
+}
+.foot{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: #16548f;
+    color: white;
+    text-align: left;
+    width: 100%;
+    height: 90%;
+    padding-top: 40px;
+    line-height: 30px;
+    font-size: large;
+}
+.foot h2{
+    color:#fff;
+	font-size:20px;
+	font-weight:600;
+	text-transform:capitalize;
+	margin-bottom:40px;
+	padding-bottom:20px;
+	text-transform:capitalize;
+}
+.about-us{
+    margin-left: 30px;
+    margin-right: 20px;
+    padding-left: 50px;
+   
+}
+
+.social{
+    display: flex;
+    
+}
+.social i{
+    height:30px;
+	width: 34px;
+	line-height: 34px;
+	text-align:center;
+	border: 1px solid #fff;
+	
+	
+	border-radius: 100%;
+	display: block;
+	color:white;
+	font-size: 16px;
+}
+.row{
+    display: flex;
+}
+ .ul1{
+    padding-left: 38px;
+}
+.ul2{
+    padding-left: 50px;
+}
+
+.open{
+    padding-right: 40px;
+    margin-right: 50px;
+    padding-left: 5px;
+}
+
+.time-table{
+    margin-top: 15px;
+    overflow: hidden;
+}
+.time-table li{
+    display: block;
+	color: #fff;
+	width: 100%;
+	margin-bottom: 5px;
+}
+.time-table span{
+    display:inline-block;
+	float:right;
+}
+.last p{
+    padding-right: 50px;
+    margin-right: 30px;
+}
+.last input{
+    background: transparent;
+	border: 1px solid #fff;
+	height: 50px;
+	line-height: 42px;
+	width: 50%;
+	/* margin-right: 15px; */
+	color: #fff;
+	padding-left: 18px;
+	padding-right: 70px;
+	display: inline-block;
+	float: left;
+	border-radius: 0px;
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+	font-weight: 400;
+	border-radius: 5px 0 0 5px;
+}
+
+
+.footer input::-webkit-input-placeholder {
+    opacity: 1;
+    color: #fff !important;
+}
+.last button{
+    
+    right: 0;
+	top: 0;
+	height: 51px;
+	line-height: 60px;
+	width: 40px;
+	background: #fff;
+	border-left: 1px solid #fff;
+	text-shadow: none;
+	box-shadow: none;
+	display: inline-block;
+	border-radius: 0px;
+	border: none;
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+	border-radius: 0 5px 5px 0;
+	color: #1A76D1;
+	font-size: 30px;
+cursor: pointer;
+   
+}
+.last button i:hover{
+    color:#2C2D3F;
+}
+
+
+.copyright{
+	background:#1A76D1;
+    color: white ;
+	padding:25px 0px 25px 0px;
+	text-align:center;
+}
+.last i{
+    font-size: large;
+    padding-right: 5px;
+}
